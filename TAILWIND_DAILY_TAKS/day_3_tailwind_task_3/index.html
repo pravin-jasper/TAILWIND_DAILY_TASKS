@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAB Banking</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <h2 class="text-2xl font-bold text-blue-900">NAB</h2>
+
+      <div class="hidden gap-8 md:flex">
+        <a href="#home" class="font-medium text-gray-700 transition hover:text-blue-700">
+          Home
+        </a>
+        <a href="#business" class="font-medium text-gray-700 transition hover:text-blue-700">
+          Business
+        </a>
+        <a href="#corporate" class="font-medium text-gray-700 transition hover:text-blue-700">
+          Corporate
+        </a>
+        <a href="#about" class="font-medium text-gray-700 transition hover:text-blue-700">
+          About
+        </a>
+        <a href="#support" class="font-medium text-gray-700 transition hover:text-blue-700">
+          Help and Support
+        </a>
+      </div>
+
+      <button class="rounded-lg bg-blue-800 px-4 py-2 font-semibold text-white md:hidden">
+        Menu
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <section
+    id="home"
+    class="relative flex min-h-[550px] items-center bg-cover bg-center"
+    style="background-image: url('https://www.nab.com.au/content/experience-fragments/nab/en/target/banners_pzn/fy25q3/personal/247549---ds---pl---personal-loans---form-abandonment---banner---/master/_jcr_content/root/responsivegrid/banner/image.coreimg.90.1920.jpeg/1746143257235/025-banner-relaxing-with-tea-with-star.jpeg');"
+  >
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <div class="relative mx-auto w-full max-w-7xl px-6 py-20">
+      <div class="max-w-2xl text-white">
+        <h1 class="text-4xl font-bold leading-tight md:text-6xl">
+          Up to 130,000 bonus Qantas Points and $250 cashback
+        </h1>
+
+        <p class="mt-6 text-lg leading-8 md:text-xl">
+          Offer on a new NAB Qantas Rewards Signature Card when you meet
+          the minimum spend criteria and keep your card for over 12 months.
+          View Disclaimer1
+        </p>
+
+        <button
+          class="mt-8 rounded-lg bg-yellow-400 px-7 py-3 font-bold text-gray-900 transition hover:bg-yellow-300"
+        >
+          Find out more
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Refinancing -->
+  <section class="mx-auto max-w-7xl px-6 py-16">
+    <div class="grid items-center gap-10 overflow-hidden rounded-2xl bg-gray-100 md:grid-cols-2">
+
+      <img
+        src="https://www.nab.com.au/content/experience-fragments/nab/en/featured_banner/product/home_loans/base-variable-rate-home-loan/master/_jcr_content/root/responsivegrid/feature_container_co/responsivegrid/feature_content_secondary/responsivegrid/responsivegrid/image_copy_copy_1072.coreimg.95.1920.png/1784001263588/house-with-fence-600x600.png"
+        alt="House"
+        class="h-full min-h-[350px] w-full object-cover"
+      >
+
+      <div class="p-8 md:p-12">
+        <h2 class="text-3xl font-bold md:text-4xl">
+          Refinancing made simple
+        </h2>
+
+        <p class="mt-5 text-lg leading-8 text-gray-600">
+          Get clarity on your refinance, from equity to offsets and rates
+          with a quick, no-pressure chat with a home loan expert.
+        </p>
+
+        <button
+          class="mt-7 rounded-lg bg-blue-800 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
+        >
+          Talk to an expert
+        </button>
+
+        <br><br>
+
+        <a
+          href="#"
+          class="font-semibold text-blue-800 underline hover:text-blue-600"
+        >
+          Explore on your own
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Savings -->
+  <section class="mx-auto max-w-7xl px-6 pb-16">
+    <div class="grid items-center gap-10 overflow-hidden rounded-2xl bg-blue-50 md:grid-cols-2">
+
+      <div class="order-2 p-8 md:order-1 md:p-12">
+        <h2 class="text-3xl font-bold md:text-4xl">
+          Get ready to save more
+        </h2>
+
+        <p class="mt-5 text-lg leading-8 text-gray-600">
+          Put savings where they belong so you can manage your money
+          with confidence.
+        </p>
+
+        <button
+          class="mt-7 rounded-lg bg-blue-800 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
+        >
+          Explore savings accounts
+        </button>
+      </div>
+
+      <img
+        src="https://www.nab.com.au/content/experience-fragments/nab/en/featured_banner/product/home_loans/base-variable-rate-home-loan/master/_jcr_content/root/responsivegrid/feature_container_co/responsivegrid/feature_content_pima/responsivegrid_copy/image.coreimg.95.1920.jpeg/1783651375715/woman-comparing-accounts-546x246.jpeg"
+        alt="Woman comparing accounts"
+        class="order-1 h-full min-h-[300px] w-full object-cover md:order-2"
+      >
+    </div>
+  </section>
+
+
+  <!-- Business Banking -->
+  <section id="business" class="bg-gray-100 py-16">
+    <div class="mx-auto max-w-7xl px-6">
+      <div class="grid items-center gap-10 md:grid-cols-2">
+
+        <img
+          src="four.jpg"
+          alt="Nature"
+          class="h-[400px] w-full rounded-2xl object-cover"
+        >
+
+        <div>
+          <h3 class="text-lg font-bold uppercase tracking-wide text-blue-800">
+            Business banking
+          </h3>
+
+          <h2 class="mt-3 text-3xl font-bold md:text-4xl">
+            Manage, grow and finance your business with NAB
+          </h2>
+
+          <p class="mt-5 text-lg leading-8 text-gray-600">
+            Optimise cashflow and operations with smart business banking
+            solutions, guides and tools to keep your business moving forward.
+          </p>
+
+          <button
+            class="mt-7 rounded-lg bg-blue-800 px-6 py-3 font-semibold text-white hover:bg-blue-700"
+          >
+            View business bank account
+          </button>
+
+          <br><br>
+
+          <a
+            href="#"
+            class="font-semibold text-blue-800 underline hover:text-blue-600"
+          >
+            Explore all business banking
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Fraud Section -->
+  <section class="mx-auto max-w-7xl px-6 py-16">
+
+    <div class="max-w-3xl">
+      <h2 class="text-3xl font-bold md:text-4xl">
+        Protecting you against fraud and scams
+      </h2>
+
+      <p class="mt-4 text-lg leading-8 text-gray-600">
+        Access practical resources and the latest insights to help keep you,
+        your family and your business safe.
+      </p>
+    </div>
+
+
+    <!-- Fraud Cards -->
+    <div class="mt-10 grid gap-8 md:grid-cols-3">
+
+      <!-- Card 1 -->
+      <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <img
+          src="https://www.nab.com.au/content/dam/nabrwd/images/types/banners/Farmer-field-mobile-DigBan-2500x900.jpg"
+          alt="Tax scams"
+          class="h-56 w-full object-cover"
+        >
+
+        <div class="p-6">
+          <h3 class="text-2xl font-bold">
+            <a href="#" class="hover:text-blue-800">
+              How to protect yourself against tax scams
+            </a>
+          </h3>
+
+          <p class="mt-4 text-gray-600">
+            Learn how to protect yourself against tax scams and stay safe
+            from fraudulent messages.
+          </p>
+        </div>
+      </article>
+
+
+      <!-- Card 2 -->
+      <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <img
+          src="https://www.nab.com.au/personal/_jcr_content/root/responsivegrid_2088157678/section_container_co/responsivegrid/link_card_1042286124/image.coreimg.95.1920.jpeg/1733098633093/young-women-on-mobile-app-1260x690.jpeg"
+          alt="Fraud alerts"
+          class="h-56 w-full object-cover"
+        >
+
+        <div class="p-6">
+          <h3 class="text-2xl font-bold">
+            <a href="#" class="hover:text-blue-800">
+              Fraud alerts: latest scams, phishing messages and fraud alerts
+            </a>
+          </h3>
+
+          <p class="mt-4 text-gray-600">
+            Check the latest fraud alerts, scams and phishing messages.
+          </p>
+        </div>
+      </article>
+
+
+      <!-- Card 3 -->
+      <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <img
+          src="https://www.nab.com.au/content/dam/nabrwd/About-Us/security/cyber-safety-tips-consumer/cyber-safety-tips-for-you-consumer.jpg"
+          alt="Online safety"
+          class="h-56 w-full object-cover"
+        >
+
+        <div class="p-6">
+          <h3 class="text-2xl font-bold">
+            <a href="#" class="hover:text-blue-800">
+              Online safety tips: How to stay safe online and in real life
+            </a>
+          </h3>
+
+          <p class="mt-4 text-gray-600">
+            Discover online safety tips and learn how to protect yourself
+            online and in real life.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- Travel -->
+  <section class="bg-blue-900 text-white">
+    <div class="mx-auto grid max-w-7xl items-center md:grid-cols-2">
+
+      <img
+        src="https://www.nab.com.au/content/experience-fragments/nab/en/featured_banner/product/personal_accounts/overseas-travel-seasonal-trend/master/_jcr_content/root/responsivegrid/section_container/responsivegrid/feature_container/responsivegrid/feature_content_pimary/image.coreimg.95.1920.png/1747752612245/travel-oversea-credit-card-banner.png"
+        alt="Travel"
+        class="h-full min-h-[400px] w-full object-cover"
+      >
+
+      <div class="p-8 md:p-14">
+        <h2 class="text-3xl font-bold md:text-4xl">
+          Travelling overseas or in Australia?
+        </h2>
+
+        <p class="mt-5 text-lg leading-8 text-blue-100">
+          With information on setting up your banking for your next holiday,
+          our travel hub helps you manage your money so you can focus on
+          the fun stuff.
+        </p>
+
+        <button
+          class="mt-7 rounded-lg bg-white px-6 py-3 font-semibold text-blue-900 hover:bg-gray-100"
+        >
+          Explore travel hub
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Online Banking -->
+  <section class="mx-auto max-w-7xl px-6 py-16">
+
+    <div class="text-center">
+      <h3 class="font-bold uppercase tracking-wide text-blue-800">
+        Online banking
+      </h3>
+
+      <h2 class="mt-2 text-4xl font-bold">
+        Ways to bank
+      </h2>
+
+      <p class="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+        Banking online means you can bank anywhere, anytime.
+        It’s secure and convenient, so get started today.
+      </p>
+    </div>
+
+
+    <div class="mt-10 grid gap-8 md:grid-cols-3">
+
+      <div class="rounded-2xl bg-gray-100 p-8 transition hover:shadow-lg">
+        <h3 class="text-2xl font-bold">
+          NAB Internet Banking
+        </h3>
+
+        <p class="mt-4 text-gray-600">
+          Do everyday banking tasks and keep track of your finances.
+        </p>
+      </div>
+
+
+      <div class="rounded-2xl bg-gray-100 p-8 transition hover:shadow-lg">
+        <h3 class="text-2xl font-bold">
+          The NAB app
+        </h3>
+
+        <p class="mt-4 text-gray-600">
+          Do everyday banking tasks and keep track of your finances.
+        </p>
+      </div>
+
+
+      <div class="rounded-2xl bg-gray-100 p-8 transition hover:shadow-lg">
+        <h3 class="text-2xl font-bold">
+          Manage your personal banking
+        </h3>
+
+        <p class="mt-4 text-gray-600">
+          Use our personal banking
+          <a href="#" class="font-semibold text-blue-800 underline">
+            calculators and tools
+          </a>
+          to help you choose the right product and view the latest
+          interest rates and fees.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="mt-8 text-center">
+      <a
+        href="#"
+        class="font-semibold text-blue-800 underline hover:text-blue-600"
+      >
+        View all online banking
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Personal Banking -->
+  <section class="bg-gray-100 py-16">
+    <div class="mx-auto max-w-5xl px-6 text-center">
+
+      <h2 class="text-3xl font-bold md:text-4xl">
+        Manage your personal banking
+      </h2>
+
+      <p class="mx-auto mt-5 max-w-3xl text-lg leading-8 text-gray-600">
+        Use our personal banking calculators and tools to help you choose
+        the right product and view the latest interest rates and fees
+        for our personal banking products.
+      </p>
+
+      <a
+        href="#"
+        class="mt-6 inline-block font-semibold text-blue-800 underline hover:text-blue-600"
+      >
+        View interest rates and fees
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300">
+
+    <div class="mx-auto grid max-w-7xl gap-12 px-6 py-14 md:grid-cols-3">
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="mb-6 text-xl font-bold text-white">
+          Quick links
+        </h3>
+
+        <div class="space-y-4">
+          <a href="#" class="block hover:text-white">Security and fraud</a>
+          <a href="#" class="block hover:text-white">Contact us</a>
+          <a href="#" class="block hover:text-white">Feedback</a>
+          <a href="#" class="block hover:text-white">Find us</a>
+          <a href="#" class="block hover:text-white">Interpreter services</a>
+          <a href="#" class="block hover:text-white">Accessibility</a>
+        </div>
+      </div>
+
+
+      <!-- Policies -->
+      <div>
+        <h3 class="mb-6 text-xl font-bold text-white">
+          Policies and terms
+        </h3>
+
+        <div class="space-y-4">
+          <a href="#" class="block hover:text-white">Privacy</a>
+          <a href="#" class="block hover:text-white">Website disclaimer</a>
+          <a href="#" class="block hover:text-white">Financial Services</a>
+          <a href="#" class="block hover:text-white">Important information</a>
+          <a href="#" class="block hover:text-white">Modern slavery statement</a>
+          <a href="#" class="block hover:text-white">Sitemap</a>
+        </div>
+      </div>
+
+
+      <!-- Social -->
+      <div>
+        <h3 class="mb-6 text-xl font-bold text-white">
+          Connect with us
+        </h3>
+
+        <div class="space-y-4">
+          <a href="#" class="block hover:text-white">LinkedIn</a>
+          <a href="#" class="block hover:text-white">Facebook</a>
+          <a href="#" class="block hover:text-white">Instagram</a>
+          <a href="#" class="block hover:text-white">X</a>
+          <a href="#" class="block hover:text-white">Google</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="border-t border-gray-700">
+      <div class="mx-auto max-w-7xl px-6 py-6 text-center text-sm text-gray-400">
+        © 2026 NAB. All rights reserved.
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>
