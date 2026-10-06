@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>About - Zone</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class'
+        }
+    </script>
+
+</head>
+
+
+<body class="bg-white text-gray-800
+             dark:bg-gray-900 dark:text-white">
+
+
+    <!-- NAVBAR -->
+
+    <header class="border-b border-gray-200 dark:border-gray-700">
+
+        <nav class="max-w-7xl mx-auto px-6 py-5">
+
+            <div class="flex justify-between items-center">
+
+                <a href="index.html"
+                   class="text-2xl font-bold text-indigo-600">
+                    Zone
+                </a>
+
+                <div class="flex items-center gap-6">
+
+                    <a href="index.html"
+                       class="hover:text-indigo-600">
+                        Home
+                    </a>
+
+                    <a href="about.html"
+                       class="text-indigo-600 font-semibold">
+                        About
+                    </a>
+
+                    <a href="contact.html"
+                       class="hover:text-indigo-600">
+                        Contact
+                    </a>
+
+                    <button onclick="toggleDarkMode()"
+                            class="bg-gray-100 dark:bg-gray-800
+                                   px-3 py-2 rounded-lg">
+                        🌙
+                    </button>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ABOUT HERO -->
+
+    <section class="py-24">
+
+        <div class="max-w-5xl mx-auto px-6 text-center">
+
+            <p class="text-indigo-600 font-semibold">
+                ABOUT Zone
+            </p>
+
+            <h1 class="text-4xl md:text-6xl
+                       font-bold mt-3">
+                We make things simple.
+            </h1>
+
+            <p class="text-lg text-gray-600
+                      dark:text-gray-300
+                      max-w-2xl mx-auto mt-6">
+
+                Nova is a simple digital platform focused on
+                helping people create modern and beautiful
+                online experiences.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- OUR STORY -->
+
+    <section class="py-20 bg-gray-50 dark:bg-gray-800">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                <div>
+
+                    <h2 class="text-3xl font-bold">
+                        Our Story
+                    </h2>
+
+                    <p class="mt-5 text-gray-600 dark:text-gray-300">
+
+                        We started with one simple idea:
+                        building a website should not be complicated.
+
+                    </p>
+
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">
+
+                        Our goal is to provide simple tools,
+                        clean designs and an enjoyable experience
+                        for everyone.
+
+                    </p>
+
+                </div>
+
+
+                <div class="bg-indigo-600 rounded-3xl
+                            p-10 text-white">
+
+                    <h3 class="text-2xl font-bold">
+                        Our Mission
+                    </h3>
+
+                    <p class="mt-4 text-indigo-100">
+                        Make modern web design accessible
+                        to everyone.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- VALUES -->
+
+    <section class="py-20">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center">
+
+                <h2 class="text-3xl font-bold">
+                    Our Values
+                </h2>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-3 gap-6 mt-12">
+
+                <div class="border border-gray-200
+                            dark:border-gray-700
+                            rounded-2xl p-7
+                            hover:shadow-xl transition">
+
+                    <h3 class="text-xl font-bold">
+                        Simplicity
+                    </h3>
+
+                    <p class="mt-3 text-gray-600
+                              dark:text-gray-400">
+                        Keep everything clear and easy to use.
+                    </p>
+
+                </div>
+
+
+                <div class="border border-gray-200
+                            dark:border-gray-700
+                            rounded-2xl p-7
+                            hover:shadow-xl transition">
+
+                    <h3 class="text-xl font-bold">
+                        Quality
+                    </h3>
+
+                    <p class="mt-3 text-gray-600
+                              dark:text-gray-400">
+                        Build things that people enjoy using.
+                    </p>
+
+                </div>
+
+
+                <div class="border border-gray-200
+                            dark:border-gray-700
+                            rounded-2xl p-7
+                            hover:shadow-xl transition">
+
+                    <h3 class="text-xl font-bold">
+                        Growth
+                    </h3>
+
+                    <p class="mt-3 text-gray-600
+                              dark:text-gray-400">
+                        Always learn and improve.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="border-t border-gray-200
+                   dark:border-gray-700">
+
+        <div class="max-w-7xl mx-auto px-6 py-8 text-center">
+
+            <p class="text-gray-500">
+                © 2026 Zone. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+
+        function toggleDarkMode() {
+
+            document.documentElement.classList.toggle("dark");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
