@@ -255,20 +255,4 @@ You can improve this project by adding:
 * Real backend/API integration
 * Tailwind CLI or Vite setup
 
-## 📸 Project Preview
 
-You can add screenshots of your project here:
-
-```markdown
-![Home Page](images/home.png)
-![About Page](images/about.png)
-![Contact Page](images/contact.png)
-```
-
-## 👨‍💻 Author
-
-Created as a beginner-friendly Tailwind CSS practice project.
-
-## 📄 License
-
-This project is free to use for learning and educational purposes.
